@@ -1,3 +1,4 @@
+// import { Link } from "react-router-dom";
 import styles from "./CountryItem.module.css";
 import PropTypes from "prop-types";
 
@@ -6,7 +7,6 @@ CountryItem.propTypes = {
 };
 
 function CountryItem({ country }) {
-  console.log(country);
   return (
     <li className={styles.countryItem}>
       <span>{country.emoji}</span>
