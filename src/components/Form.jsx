@@ -101,7 +101,7 @@ function Form() {
       onSubmit={handleSubmit}
     >
       <div className={styles.row}>
-        <label htmlFor="cityName">City name</label>
+        <label htmlFor="cityName">City Name</label>
         <input
           id="cityName"
           onChange={(e) => setCityName(e.target.value)}
