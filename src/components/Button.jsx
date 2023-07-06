@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 Button.propTypes = {
   children: PropTypes.object,
   onClick: PropTypes.object,
-  type: PropTypes.object,
+  type: PropTypes.string,
 };
 
 function Button({ children, onClick, type }) {
