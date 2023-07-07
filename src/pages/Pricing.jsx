@@ -6,7 +6,7 @@ export default function Product() {
   return (
     <main className={styles.product}>
       <PageNav />
-      <section>
+      {/* <section>
         <div>
           <h2>
             Simple pricing.
@@ -20,7 +20,7 @@ export default function Product() {
           </p>
         </div>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
-      </section>
+      </section> */}
     </main>
   );
 }
