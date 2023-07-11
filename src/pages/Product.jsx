@@ -5,7 +5,7 @@ export default function Product() {
   return (
     <main className={styles.product}>
       <PageNav />
-      {/* <section>
+      <section>
         <img
           src="img-1.jpg"
           alt="person with dog overlooking mountain with sunset"
@@ -24,7 +24,7 @@ export default function Product() {
             sequi officiis et.
           </p>
         </div>
-      </section> */}
+      </section>
     </main>
   );
 }
