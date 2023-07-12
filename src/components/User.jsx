@@ -1,9 +1,9 @@
 import styles from "./User.module.css";
 
 const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
-  password: "qwerty",
+  name: "Anna",
+  email: "anna@example.com",
+  password: "123",
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
 
