@@ -12,7 +12,7 @@ CitiesProvider.propTypes = {
   children: PropTypes.object,
 };
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "http://localhost:8000";
 
 const CitiesContext = createContext();
 
